@@ -1,0 +1,298 @@
+{
+    "dialogos": [
+        {
+            "id": 1,
+            "personaje": "Narrador",
+            "texto": "Te despiertas en una habitación desconocida. Hay una puerta al frente y una ventana a tu izquierda.",
+            "opciones": [
+                {
+                    "texto": "Abrir la puerta",
+                    "siguiente": 2
+                },
+                {
+                    "texto": "Mirar por la ventana",
+                    "siguiente": 3
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "personaje": "Narrador",
+            "texto": "Al abrir la puerta, encuentras un pasillo largo iluminado por velas. Al final hay una escalera que sube y otra que baja.",
+            "opciones": [
+                {
+                    "texto": "Subir las escaleras",
+                    "siguiente": 4
+                },
+                {
+                    "texto": "Bajar las escaleras",
+                    "siguiente": 5
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "personaje": "Narrador",
+            "texto": "Mirando por la ventana ves un bosque oscuro. Parece que estás en el segundo piso de una casa antigua.",
+            "opciones": [
+                {
+                    "texto": "Volver a la habitación",
+                    "siguiente": 1
+                },
+                {
+                    "texto": "Intentar salir por la ventana",
+                    "siguiente": 6
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "personaje": "Narrador",
+            "texto": "Al intentar salir por la ventana, resbalas y caes al suelo. Terminas herido y no puedes continuar.",
+            "opciones": []
+        },
+        {
+            "id": 4,
+            "personaje": "Narrador",
+            "texto": "Subes las escaleras y llegas a un ático polvoriento. Hay un baúl cerrado y una pequeña ventana.",
+            "opciones": [
+                {
+                    "texto": "Abrir el baúl",
+                    "siguiente": 7
+                },
+                {
+                    "texto": "Mirar por la ventana",
+                    "siguiente": 8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "personaje": "Narrador",
+            "texto": "Bajas las escaleras y llegas a un sótano oscuro. Escuchas un ruido proveniente de una esquina.",
+            "opciones": [
+                {
+                    "texto": "Investigar el ruido",
+                    "siguiente": 9
+                },
+                {
+                    "texto": "Buscar una salida",
+                    "siguiente": 10
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "personaje": "Narrador",
+            "texto": "El baúl está cerrado con llave. Necesitas encontrar una forma de abrirlo.",
+            "opciones": [
+                {
+                    "texto": "Buscar una llave en el ático",
+                    "siguiente": 11
+                },
+                {
+                    "texto": "Bajar de nuevo",
+                    "siguiente": 2
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "personaje": "Narrador",
+            "texto": "Por la ventana del ático ves el techo de la casa y una escalera que lleva al exterior.",
+            "opciones": [
+                {
+                    "texto": "Salir por la escalera",
+                    "siguiente": 12
+                },
+                {
+                    "texto": "Volver al interior",
+                    "siguiente": 4
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "personaje": "Narrador",
+            "texto": "Te acercas al ruido y descubres un gato asustado. Encuentras una pequeña llave junto a él.",
+            "opciones": [
+                {
+                    "texto": "Tomar la llave",
+                    "siguiente": 13
+                },
+                {
+                    "texto": "Dejar la llave",
+                    "siguiente": 5
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "personaje": "Narrador",
+            "texto": "Buscando una salida, encuentras una puerta oculta tras unas cajas.",
+            "opciones": [
+                {
+                    "texto": "Abrir la puerta oculta",
+                    "siguiente": 14
+                },
+                {
+                    "texto": "Ignorar la puerta",
+                    "siguiente": 5
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "personaje": "Narrador",
+            "texto": "Buscas entre los objetos del ático y encuentras una nota antigua con un mensaje críptico.",
+            "opciones": [
+                {
+                    "texto": "Leer la nota",
+                    "siguiente": 15
+                },
+                {
+                    "texto": "Ignorar la nota",
+                    "siguiente": 4
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "personaje": "Narrador",
+            "texto": "Sales por la escalera y llegas al tejado. Desde aquí puedes ver todo el bosque y una carretera a lo lejos.",
+            "opciones": [
+                {
+                    "texto": "Intentar bajar al suelo",
+                    "siguiente": 16
+                },
+                {
+                    "texto": "Volver al ático",
+                    "siguiente": 4
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "personaje": "Narrador",
+            "texto": "Tomas la llave. Quizás sirva para abrir el baúl del ático.",
+            "opciones": [
+                {
+                    "texto": "Subir al ático",
+                    "siguiente": 4
+                },
+                {
+                    "texto": "Explorar más el sótano",
+                    "siguiente": 5
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "personaje": "Narrador",
+            "texto": "La puerta oculta da a un túnel subterráneo que parece llevar fuera de la casa.",
+            "opciones": [
+                {
+                    "texto": "Entrar al túnel",
+                    "siguiente": 17
+                },
+                {
+                    "texto": "Volver al sótano",
+                    "siguiente": 5
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "personaje": "Narrador",
+            "texto": "La nota dice: 'La llave está donde el miedo se esconde'.",
+            "opciones": [
+                {
+                    "texto": "Buscar en el sótano",
+                    "siguiente": 5
+                },
+                {
+                    "texto": "Seguir buscando en el ático",
+                    "siguiente": 4
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "personaje": "Narrador",
+            "texto": "Intentas bajar al suelo desde el tejado, pero es muy alto y peligroso.",
+            "opciones": [
+                {
+                    "texto": "Buscar otra forma de bajar",
+                    "siguiente": 12
+                },
+                {
+                    "texto": "Volver al ático",
+                    "siguiente": 4
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "personaje": "Narrador",
+            "texto": "Avanzas por el túnel y ves una luz al final. ¡Has encontrado una salida secreta!",
+            "opciones": []
+        },
+        {
+            "id": 18,
+            "personaje": "Narrador",
+            "texto": "De la nada un mounstro aparece y te ataca.",
+            "opciones": [
+                {
+                    "texto": "Intentar correr",
+                    "siguiente": 19
+                },
+                {
+                    "texto": "Lanzarle una piedra",
+                    "siguiente": 20
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "personaje": "Narrador",
+            "texto": "Logras escapar pero aun te persigue'.",
+            "opciones": [
+                {
+                    "texto": "Esconderse detras de una pared",
+                    "siguiente": 21
+                },
+                {
+                    "texto": "Seguir corriendo",
+                    "siguiente": 20
+                }
+            ]
+        },
+                {
+            "id": 20,
+            "personaje": "Narrador",
+            "texto": "Estas muerto",
+            "opciones": []
+        },
+        {
+            "id": 21,
+            "personaje": "Narrador",
+            "texto": "Logras evadir al mounstro y te diriges nuevamente a la salida.",
+            "opciones": [
+                {
+                    "texto": "Salir de una vez",
+                    "siguiente": 22
+                },
+                {
+                    "texto": "Seguir buscando",
+                    "siguiente": 11
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "personaje": "Narrador",
+            "texto": "Lograste salir con exito",
+            "opciones": []
+        }
+    ]
+}
